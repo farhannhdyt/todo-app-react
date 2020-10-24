@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-container {
+  background-color: white;
+  width: 40%;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  margin-top: 10px;
+}
+
+.todo-item {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f6fa;
+  padding: 20px;
+}
+
+.todos {
+  width: 80%;
+}
+
+.action-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.is-complete {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.action-done img {
+  border: #26de81;
+}
+
+.action-remove img {
+  border: #fc5c65;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #888;
+}
+
+.todo-form-wrapper {
+  background-color: white;
+  width: 40%;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  margin: 20px 0;
+}
+
+.todo-form-wrapper form {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.todo-form-wrapper form .todo-form {
+  padding: 10px 12px;
+  width: 80%;
+  border: 1px solid #e2e2e2;
+  border-radius: 6px;
+}
+
+.todo-form-wrapper form .button-todo-submit {
+  background-color: #20232a;
+  border: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
